@@ -1,0 +1,15 @@
+body {
+    background-color: black;
+    color: blanchedalmond;
+    
+}
+
+.gigs {
+
+    border: 2px dashed burlywood;
+}
+
+h2 { 
+    background-color: cadetblue;
+    padding: 20px;
+}
