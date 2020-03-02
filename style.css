@@ -13,7 +13,16 @@ h2 {
     background-color: cadetblue;
     padding: 20px;
 }
+
+@media screen and (min-width: 500px) {
+
+    body {
+        background-color: darkgray;
+    }
+}
 img, 
-video {
+video,
+audio,
+iframe {
     max-width:100%; ;
 }
