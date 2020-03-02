@@ -13,3 +13,7 @@ h2 {
     background-color: cadetblue;
     padding: 20px;
 }
+img, 
+video {
+    max-width:100%; ;
+}
