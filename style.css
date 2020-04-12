@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Press+Start+2P|VT323&display=swap');
 
-
+    
 body {
     background-color: darkred;
     font-family: 'VT323', monospace;
     font-size: 20px;
     color: whitesmoke;
-
     
 }
 
@@ -40,7 +39,7 @@ img,
 video,
 audio,
 iframe {
-    max-width:100%; ;
+    max-width:100%; height:auto ;
 }
 
 a {
@@ -54,3 +53,14 @@ a {
     margin-right: auto;
 }
 
+.container {
+    width: 10%;
+
+  }
+  
+  .container img {
+    max-height:100px;
+    max-width: 100px;
+    
+    
+  }
