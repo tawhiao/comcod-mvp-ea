@@ -8,15 +8,10 @@ body {
     color: whitesmoke;
     
 }
-
 h1,
 h2,
 h3 {font-family: 'Press Start 2P', cursive;
 
-}
-.gigs {
-
-    border: 2px dashed burlywood;
 }
 h1 {
     text-align: center;
@@ -26,6 +21,7 @@ h2 {
     padding: 20px;
 }
 
+/* mobile accesibilty */
 @media screen and (min-width: 700px) {
 
     body {
@@ -40,8 +36,15 @@ video,
 audio,
 iframe {
     max-width:100%; height:auto ;
+    
 }
+.gigs {
 
+    border: 2px dashed burlywood;
+}
+iframe {
+    opacity: .9;
+}
 a {
     color: gold;
 }
@@ -74,7 +77,7 @@ a {
       text-align: center;
   }
   
-  /*Social Media Icons*/
+  /*Footer Social Media Icons*/
   .social-wrapper {
       text-align: center;
   }
@@ -84,7 +87,7 @@ a {
       margin: 0 5px;
   }
   
-  .twitter-icon,
+  .twitter-icon,    
   .facebook-icon,
   .soundcloud-icon,
   .instagram-icon,
