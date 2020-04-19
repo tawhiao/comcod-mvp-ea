@@ -30,6 +30,17 @@ h2 {
     h2 {
         background-color: darkred;
     }
+    .twitter-icon,    
+    .facebook-icon,
+    .soundcloud-icon,
+    .instagram-icon,
+    .gmail-icon,
+    .youtube-icon {
+        opacity: .9 ;
+        filter: alpha(opacity=90); /* For IE8 and earlier */
+
+    }
+
 }
 img, 
 video,
@@ -42,12 +53,45 @@ iframe {
 
     border: 2px dashed burlywood;
 }
+
 iframe {
     opacity: .9;
 }
-a {
-    color: gold;
-}
+
+/* top navigation bar */
+.topnav {
+    max-width: 100%; height: auto;
+    background-color: black;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
 
 /* layouts */
 .layout {
