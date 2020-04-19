@@ -15,8 +15,10 @@ h3 {font-family: 'Press Start 2P', cursive;
 }
 h1 {
     text-align: center;
+
 }
 h2 { 
+    font-size: 25px;
     background-color: black;
     padding: 20px;
 }
