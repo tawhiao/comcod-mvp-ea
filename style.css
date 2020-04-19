@@ -102,17 +102,6 @@ iframe {
     margin-right: auto;
 }
 
-.container {
-    width: 10%;
-
-  }
-  
-  .container img {
-    max-height:100px;
-    max-width: 100px;
-    
-    
-  }
   .site-footer {
       text-align: center;
       margin: 10px 0;
